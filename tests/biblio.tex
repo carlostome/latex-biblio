@@ -1,0 +1,15 @@
+\documentclass[british]{article}
+
+\usepackage{babel}             % hyphenation, load before biblatex
+\usepackage{biblatex}          % \printbibliography
+\usepackage{software-biblatex} % nonstandard field `repository'
+\usepackage{csquotes}          % nested quotations, strongly recommended by biblatex
+
+\addbibresource[glob]{../*.bib}
+
+\ExecuteBibliographyOptions{swlabels=false}
+
+\begin{document}
+\nocite{*}
+\printbibliography
+\end{document}
