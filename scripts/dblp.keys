@@ -28,6 +28,8 @@ journals/mscs/CoquandD97
 journals/mscs/CubricDS98
 conf/pepm/Danvy98
 journals/jfp/DanvyRR01
+conf/popl/DaviesP96
+journals/jacm/DaviesP01
 journals/cacm/Denning76
 journals/sLogica/Dosen85
 journals/tocs/VandebogartEKKFZKMM07
@@ -64,6 +66,7 @@ journals/corr/abs-1807-04085,McBride18
 books/daglib/0085577,Mitchell96
 conf/lics/Moggi89
 journals/iandc/Moggi91
+books/daglib/0071307,NielsonN92
 journals/bsl/OHearnP99
 journals/tcs/OHearnPTT99
 journals/pacmpl/OrchardLE19
@@ -75,6 +78,7 @@ conf/sp/PedersenA17
 conf/csfw/PedersenA19
 conf/haskell/LiMJT07
 books/daglib/0005958,Pierce02
+journals/mscs/PfenningD01
 conf/tark/PlotkinS86
 journals/pacmpl/PolikarpovaSYIH20
 journals/siglog/Pym19
