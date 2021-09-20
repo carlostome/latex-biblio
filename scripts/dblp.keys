@@ -15,6 +15,7 @@ conf/lics/BergerS91
 conf/pldi/BirgissonRS11
 journals/toplas/BieringBT07
 journals/corr/abs-1111-0087,BoespflugP11
+conf/popl/BornatCOP05
 conf/icfp/BowmanA15
 conf/aplas/BrobergDS13
 conf/popl/BrotherstonC09
@@ -31,6 +32,7 @@ journals/jfp/DanvyRR01
 conf/popl/DaviesP96
 journals/jacm/DaviesP01
 journals/cacm/Denning76
+conf/aplas/DockinsHA09
 journals/sLogica/Dosen85
 journals/tocs/VandebogartEKKFZKMM07
 journals/jsyml/Ewald86
@@ -88,6 +90,7 @@ conf/csfw/Rajani018
 journals/jcs/RajaniG20
 conf/popl/ReddyR12
 conf/popl/Reynolds78
+conf/lics/Reynolds02
 conf/icfp/Russo15
 conf/haskell/RussoCH08
 conf/csfw/RussoS06
