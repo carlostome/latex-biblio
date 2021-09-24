@@ -34,7 +34,6 @@ journals/jacm/DaviesP01
 journals/cacm/Denning76
 conf/aplas/DockinsHA09
 journals/sLogica/Dosen85
-journals/tocs/VandebogartEKKFZKMM07
 journals/jsyml/Ewald86
 conf/ccs/FerraiuoloZMS18
 conf/tlca/Filinski01
@@ -107,6 +106,7 @@ conf/popl/Tate13
 conf/haskell/TereiMJM12
 books/daglib/0001441,TroelstraS00
 conf/icfp/TseZ04
+journals/tocs/VandebogartEKKFZKMM07
 conf/ppdp/ValliappanR19
 conf/esorics/VassenaBWR16
 conf/csfw/VassenaBR17
