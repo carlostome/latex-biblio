@@ -28,6 +28,7 @@ conf/lics/CalcagnoOY07
 conf/fossacs/Clouston18
 conf/csl/Coquand93
 journals/mscs/CoquandD97
+journals/lisp/Coquand02
 journals/mscs/CubricDS98
 conf/pepm/Danvy98
 journals/jfp/DanvyRR01
@@ -45,12 +46,14 @@ conf/lfp/GabrielM84
 journals/jcs/GiffinLSTMMR17
 conf/sp/GoguenM82a
 journals/pacmpl/GratzerSB19
+conf/lics/GratzerKNB20
 journals/pacmpl/GregersenBTB21
 conf/sac/HedinBBS14
 series/natosec/HedinS12
 conf/popl/HeintzeR98
 journals/pacmpl/HirschC21
 conf/popl/IshtiaqO01
+journals/jfp/JayG95
 conf/popl/JonesW93
 journals/jfp/JungKJBBD18
 journals/tse/KainL87
@@ -61,6 +64,7 @@ journals/cacm/Lampson73
 conf/pldi/LaunchburyJ94
 conf/popl/LewisLMS00
 phd/ethos/Lindley05
+conf/tlca/Lindley07
 journals/entcs/LindleyWY11
 journals/corr/abs-1708-02143,LitakV17
 conf/csfw/LiZ06
