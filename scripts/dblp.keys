@@ -26,6 +26,7 @@ conf/icfp/BernardyJP10
 conf/vstte/Bickford08
 journals/toplas/BieringBT07
 conf/pldi/BirgissonRS11
+journals/iandc/BirkedalH99
 journals/corr/abs-1111-0087,BoespflugP11
 journals/acs/Bordg19
 conf/popl/BornatCOP05
@@ -132,6 +133,7 @@ conf/csfw/PedersenA19
 conf/icfp/PetricekOM14
 journals/mscs/PfenningD01
 books/daglib/0005958,Pierce02
+conf/ac/Pitts00
 conf/fossacs/PlotkinP01
 conf/esop/PlotkinP09
 conf/tark/PlotkinS86
