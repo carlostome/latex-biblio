@@ -3,6 +3,7 @@ journals/jfp/AbadiCCL91
 journals/pacmpl/AbelB20
 conf/ppdp/0001S19,AbelS19
 conf/types/Aczel98
+conf/esop/Ahmed06
 journals/lmcs/AhrensL19
 conf/csl/AlechinaMPR01
 conf/ccs/Algehed18
@@ -59,6 +60,7 @@ journals/jfp/DanvyRR01
 conf/popl/DaviesP96
 journals/jacm/DaviesP01
 journals/cacm/Denning76
+journals/cacm/DennisH83
 conf/aplas/DockinsHA09
 journals/sLogica/Dosen85
 conf/types/Dybjer95
