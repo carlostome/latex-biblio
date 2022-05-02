@@ -11,6 +11,7 @@ journals/pacmpl/AlgehedB19
 conf/ccs/AlgehedR17
 conf/fossacs/AltenkirchBKSS21
 conf/fossacs/AltenkirchCDKF18
+conf/fossacs/AltenkirchDK17
 conf/lics/AltenkirchDHS01
 conf/ctcs/AltenkirchHS95
 conf/lics/AltenkirchHS96
@@ -56,6 +57,8 @@ conf/colog/CoquandP88
 journals/mscs/CubricDS98
 journals/fuin/Curien93
 journals/tcs/CurienGH14
+journals/pacmpl/Danielsson18
+conf/icfp/Danielsson12
 conf/pepm/Danvy98
 journals/jfp/DanvyRR01
 conf/popl/DaviesP96
