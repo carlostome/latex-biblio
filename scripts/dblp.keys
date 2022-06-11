@@ -62,6 +62,9 @@ journals/lisp/Coquand02
 journals/mscs/CoquandD97
 conf/lics/CoquandMR17
 conf/colog/CoquandP88
+conf/icfp/CortinasS18,TomeS18
+conf/ccs/CortinasV19,TomeV19
+conf/csfw/CortinasVR20,TomeVR20
 journals/mscs/CubricDS98
 journals/fuin/Curien93
 journals/tcs/CurienGH14
