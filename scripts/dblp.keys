@@ -129,9 +129,10 @@ conf/popl/IshtiaqO01
 books/daglib/0023251,Jacobs01
 journals/jfp/JayG95
 journals/acs/Johnstone93
-conf/pldi/JonesRHHM99
-conf/popl/JonesGF96
 conf/afp/Jones95
+conf/popl/JonesGF96
+books/daglib/0072559,JonesGS93
+conf/pldi/JonesRHHM99
 conf/popl/JonesW93
 journals/jfp/JungKJBBD18
 journals/tse/KainL87
