@@ -19,8 +19,8 @@ BEGIN {
   key=$1
 }
 
-NF == 1 { # entry key defaults to what comes after DBLP:*/*/ (see renameEntry)
-  name="\\1"
+NF == 1 { # entry key defaults to last path segment of DBLP:**/* (see renameEntry)
+  name="\\2"
   printf "Downloading " key "... "
 }
 
@@ -30,7 +30,7 @@ NF == 2 { # entry key given explicitly
 }
 
 {
-  renameEntry="s/DBLP:[[:alnum:]]*\\/[[:alnum:]]*\\/([[:alnum:]-]*)/" name "/"
+  renameEntry="s/DBLP:([[:alnum:]]*\\/)*([[:alnum:]-]*)/" name "/"
   deleteEmpty="/^$/d"
   sedCmd="sed -r -e '" renameEntry "' -e '" deleteEmpty "'"
 
