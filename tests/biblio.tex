@@ -1,11 +1,34 @@
-\documentclass[british]{article}
+\documentclass[british,draft]{article} % draft mode marks overfull boxes
 
 \usepackage{babel}             % hyphenation, load before biblatex
 \usepackage{biblatex}          % \printbibliography
 \usepackage{software-biblatex} % nonstandard field `repository'
 \usepackage{csquotes}          % nested quotations, strongly recommended by biblatex
+\usepackage[T1]{fontenc}
+\usepackage{myhyphenation}
+
+\renewcommand{\britishhyphenmins}{22}
 
 \addbibresource[glob]{../*.bib}
+
+\makeatletter
+% Makes at, dot and plus breakable after. (cf. \addslash in biblatex.sty)
+\newrobustcmd*{\addat}{%
+  \unspace{}@\penalty\hyphenpenalty\hskip\z@skip}
+\newrobustcmd*{\addbdot}{%
+  \unspace{}.\penalty\hyphenpenalty\hskip\z@skip}
+\newrobustcmd*{\addplus}{%
+  \unspace{}+\penalty\hyphenpenalty\hskip\z@skip}
+% Makes dot breakable before.
+\newrobustcmd*{\addbdotbefore}{%
+  \unspace\penalty\hyphenpenalty\hskip\z@skip.}
+\makeatother
+
+% Make space between pages prefix and text breakable
+\renewcommand*{\ppspace}{\addspace}
+
+% Make space between volume prefix and text breakable
+\DeclareFieldFormat{volume}{\bibstring{volume}\addspace{}#1}
 
 \ExecuteBibliographyOptions{swlabels=false}
 

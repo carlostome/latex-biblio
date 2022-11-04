@@ -1,0 +1,4 @@
+[submodule "tests/texmf/myhyphenation"]
+	path = tests/texmf/myhyphenation
+	url = https://github.com/carlostome/latex-myhyphenation.git
+	branch = main
