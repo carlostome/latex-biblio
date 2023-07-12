@@ -3,8 +3,11 @@ conf/popl/AbadiBHR99
 journals/jfp/AbadiCCL91
 journals/pacmpl/AbelB20
 conf/ppdp/0001S19,AbelS19
+conf/tacs/AbramskyMJ94
+journals/entcs/AbramskyJ09
 conf/types/Aczel98
 journals/entcs/AhmanS13
+conf/types/AhmanU13
 conf/esop/Ahmed06
 journals/lmcs/AhrensL19
 conf/csl/AlechinaMPR01
@@ -21,6 +24,8 @@ conf/flops/AltenkirchU04
 conf/popl/AminR17
 journals/logcom/Andreoli92
 conf/esorics/AskarovHSS08
+conf/pldi/AskarovS09
+journals/jfp/Atkey09
 conf/popl/AtkeyGJ14
 conf/aplas/AustinFA12
 journals/mscs/AvigadKL15
@@ -58,6 +63,7 @@ conf/csfw/BusiNBGDMP20
 conf/lics/CalcagnoOY07
 journals/lmcs/Capretta05
 conf/tlca/CastellanCD15
+journals/mscs/ChapmanUV19
 journals/pacmpl/ChoudhuryK20
 journals/mscs/ClairambaultD14
 conf/fossacs/Clouston18
@@ -128,6 +134,7 @@ conf/lics/Hofmann99
 conf/lics/HofmannS94
 books/daglib/0046165,HoTT
 conf/sp/HritcuGKPM13
+journals/pacmpl/HuntSS23
 journals/jfp/HuttonW07
 conf/ecoop/InoueAI18
 conf/popl/IshtiaqO01
@@ -150,9 +157,11 @@ journals/jfp/CraryKP05
 journals/igpl/Kojima12,Kojima12a
 journals/corr/abs-2102-01969,KristensenMV21
 journals/cacm/Lampson73
+conf/csfw/LandauerR93
 conf/pldi/LaunchburyJ94
 journals/mscs/Laurent05
 conf/popl/LewisLMS00
+conf/csl/Levy02
 books/sp/Levy2004,Levy04
 conf/rta/LicataOPS18
 conf/haskell/LiMJT07
@@ -176,11 +185,13 @@ journals/corr/abs-2005-05512,McAllester20
 journals/jfp/McbrideP08,McBrideP08
 journals/corr/abs-1807-04085,McBride18
 conf/popl/MelliesZ15
+journals/jcss/Milner78
 books/daglib/0069232,MilnerTH90
 books/daglib/0085577,Mitchell96
 conf/ctcs/Moggi89,Moggi89a
 conf/lics/Moggi89,Moggi89b
 journals/iandc/Moggi91
+conf/lics/MogelbergS07
 books/daglib/0071307,NielsonN92
 journals/pacmpl/NuytsVD17
 journals/bsl/OHearnP99
@@ -195,10 +206,13 @@ conf/icfp/PetricekOM14
 journals/mscs/PfenningD01
 books/daglib/0005958,Pierce02
 conf/ac/Pitts00,Pitts00a
+conf/mfcs/PittsS93
 conf/fossacs/PlotkinP01
+journals/acs/PlotkinP03
 conf/esop/PlotkinP09
 conf/tark/PlotkinS86
 journals/pacmpl/PolikarpovaSYIH20
+journals/toplas/PottierS03
 journals/pacmpl/PoulsenRTKV18
 books/daglib/0006566,Pym02
 journals/siglog/Pym19
@@ -222,10 +236,12 @@ conf/haskell/RussoCH08
 conf/csfw/RussoS06
 conf/csfw/RussoS09
 journals/jsac/SabelfeldM03
+journals/lisp/SabelfeldS01
 conf/icfp/SchoepeHS14
 journals/corr/SchreiberS14
 journals/japll/Scott14
 journals/mst/Scott67
+journals/tit/Shannon53b
 journals/lmcs/ShikumaI08
 phd/ethos/Simpson94a
 journals/jfp/Sivaramakrishnan16
@@ -237,6 +253,7 @@ conf/icfp/StefanRBLMM12
 conf/osdi/StefanYMRHKM14
 conf/fossacs/Strassburger13
 conf/padl/SymePL11
+conf/fscd/Sterling022,SterlingH22
 journals/corr/abs-1809-08646,SterlingS18
 books/daglib/0067012,Streicher91
 books/ox/05/Streicher05
