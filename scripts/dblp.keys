@@ -3,6 +3,7 @@ conf/popl/AbadiBHR99
 journals/jfp/AbadiCCL91
 journals/pacmpl/AbelB20
 conf/ppdp/0001S19,AbelS19
+journals/iandc/AbramskyO93
 conf/tacs/AbramskyMJ94
 journals/entcs/AbramskyJ09
 conf/types/Aczel98
@@ -158,6 +159,8 @@ journals/lmcs/Kavvos20
 journals/jfp/CraryKP05
 journals/igpl/Kojima12,Kojima12a
 journals/corr/abs-2102-01969,KristensenMV21
+conf/lics/LagoGL17
+journals/pacmpl/LagoG22a
 journals/cacm/Lampson73
 conf/csfw/LandauerR93
 conf/pldi/LaunchburyJ94
@@ -165,6 +168,8 @@ journals/mscs/Laurent05
 conf/popl/LewisLMS00
 conf/csl/Levy02
 books/sp/Levy2004,Levy04
+conf/fics/Levy10
+conf/fossacs/Levy11
 conf/rta/LicataOPS18
 conf/haskell/LiMJT07
 phd/ethos/Lindley05
@@ -245,6 +250,7 @@ journals/japll/Scott14
 journals/mst/Scott67
 journals/tit/Shannon53b
 journals/lmcs/ShikumaI08
+conf/ecoop/SilverHCHZ23
 phd/ethos/Simpson94a
 journals/jfp/Sivaramakrishnan16
 conf/popl/SmithV98
