@@ -6,6 +6,21 @@ usage_and_exit_zero() { usage; exit 0; }
 
 usage_and_exit_nonzero() { usage; exit 2; }
 
+REFTYPES='article'
+REFTYPES="${REFTYPES}\|book"
+REFTYPES="${REFTYPES}\|booklet"
+REFTYPES="${REFTYPES}\|conference"
+REFTYPES="${REFTYPES}\|inbook"
+REFTYPES="${REFTYPES}\|incollection"
+REFTYPES="${REFTYPES}\|inproceedings"
+REFTYPES="${REFTYPES}\|manual"
+REFTYPES="${REFTYPES}\|mastersthesis"
+REFTYPES="${REFTYPES}\|misc"
+REFTYPES="${REFTYPES}\|phdthesis"
+REFTYPES="${REFTYPES}\|proceedings"
+REFTYPES="${REFTYPES}\|techreport"
+REFTYPES="${REFTYPES}\|unpublished"
+
 SCRIPTNAME=$(basename $0)
 SCRIPTDIR=$(dirname $0)
 KEYFILE=${SCRIPTDIR}/dblp.keys
@@ -33,8 +48,8 @@ shift $(($OPTIND - 1))
 FETCHKEYS=$(mktemp)
 BIBKEYS=$(mktemp)
 
-sed -ne 's/^[[:space:]]*@.*{\([[:alnum:]]*\).*$/\1/p'                   $BIBFILE | sort -u > $BIBKEYS
-sed -ne 's/^[[:space:]]*\(.*[/,]\)\?\([[:alnum:]]*\)[[:space:]]*$/\2/p' $KEYFILE | sort -u > $FETCHKEYS
+sed -ne "s/^[[:space:]]*@[[:space:]]*\\(${REFTYPES}\\)[[:space:]]*{\\([-_:[:alnum:]]*\\).*\$/\\2/p" $BIBFILE | sort -u > $BIBKEYS
+sed -ne 's/^[[:space:]]*\(.*[/,]\)\?\([-_:[:alnum:]]*\)[[:space:]]*$/\2/p'                          $KEYFILE | sort -u > $FETCHKEYS
 
 diff -u --label $BIBFILE $BIBKEYS --label $KEYFILE $FETCHKEYS && echo "$BIBFILE and $KEYFILE seem to contain the same keys."
 
